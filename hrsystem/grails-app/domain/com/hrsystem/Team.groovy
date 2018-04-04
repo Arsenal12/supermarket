@@ -7,6 +7,7 @@ String teamName
 String numberOfEmployee
 String sectionName
 String description
+TeamLeader teamleader
 
 
 
@@ -19,8 +20,6 @@ numberOfEmployee blank:false, nullable:false
 sectionName blank:false, nullable:false 
 
 description blank:false, nullable:false 
-
-
 
 
 

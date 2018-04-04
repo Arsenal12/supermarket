@@ -11,6 +11,10 @@ String sectionName
 String officePhone
 String leaderemail
 String password
+String toString(){
+return fullName
+}
+
 
 static constraints = {
 
@@ -28,4 +32,5 @@ leaderemail blank:false, nullable:true
 
 password blank:false, nullable:false 
     }
+
 }

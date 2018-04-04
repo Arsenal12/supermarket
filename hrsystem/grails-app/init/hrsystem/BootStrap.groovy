@@ -30,6 +30,7 @@ sectionName: 'Bakery,Butcher',
 officePhone: '01111777',
 leaderemail:'smac@email.com',
 password: 'secret2017'
+
 ).save()   
 
 def Khan = new TeamLeader(
@@ -68,7 +69,8 @@ def Kesar = new Team(
 teamName: 'Team Loading',
 numberOfEmployee:'10,20',
 sectionName:'Bakery,Butcher',
-description: 'Loading and unloading deliveries'
+description: 'Loading and unloading deliveries',
+teamleader: Rob
 ).save() 
 
 def Atiq = new Team(
@@ -111,6 +113,7 @@ dayOfWeek:'Monday,Tuesday',
 numberOfHours:'4,6,8',
 startingTime: '6:00am.12:00am,6:00pm'
 ).save()
+
 
     }
 }
